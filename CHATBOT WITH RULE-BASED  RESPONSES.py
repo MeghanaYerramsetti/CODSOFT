@@ -1,5 +1,5 @@
 def get_response(user_input):
-    user_input = user_input.lower()  # Normalize the input to lowercase
+    user_input = user_input.lower()
     
     if "hello" in user_input or "hi" in user_input:
         return "Hello! How can I assist you today?"
@@ -12,7 +12,6 @@ def get_response(user_input):
     else:
         return "I'm sorry, I didn't understand that."
 
-# Main loop to interact with the user
 def chat():
     print("Welcome to the chatbot! Type 'bye' to exit.")
     while True:
@@ -23,6 +22,5 @@ def chat():
         response = get_response(user_input)
         print("Bot:", response)
 
-# Start the chat
 if __name__ == "__main__":
     chat()
