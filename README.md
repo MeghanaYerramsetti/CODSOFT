@@ -4,8 +4,7 @@
 
 # AI Projects Collection
 
-This repository contains a collection of AI projects demonstrating various techniques in machine learning, computer vision, and natural language processing. Each project is designed to showcase specific skills and concepts, from building chatbots to implementing face recognition systems. 
-
+This repository contains a collection of AI projects demonstrating various techniques in machine learning, computer vision, and natural language processing. Each project is designed to showcase specific skills and concepts, from building chatbots.
 ## Table of Contents
 1. [Chatbot with Rule-Based Responses](#chatbot-with-rule-based-responses)
 2. [Tic-Tac-Toe Game](#tic-tac-toe-game)
