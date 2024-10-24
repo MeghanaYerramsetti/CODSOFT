@@ -1,2 +1,2 @@
 # CODSOFT
-This is a simple chatbot that responds to user inputs based on predefined rules. by using if-else statements or pattern matching techniques to identify user queries and provide appropriate responses. This will give you a basic understanding of natural  language processing and conversation flow.
+This repository contains FACE DETECTION AND RECOGNITION,RECOMMENDATION SYSTEM,IMAGE CAPTIONING,TIC-TAC-TOE AI,CHATBOT WITH RULE-BASED RESPONSES codes ,these contains simple and basic code
