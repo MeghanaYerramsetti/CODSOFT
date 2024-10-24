@@ -10,10 +10,6 @@ This repository contains a collection of AI projects demonstrating various techn
 1. [Chatbot with Rule-Based Responses](#chatbot-with-rule-based-responses)
 2. [Tic-Tac-Toe Game](#tic-tac-toe-game)
 3. [Image Captioning](#image-captioning)
-4. [Recommendation System](#recommendation-system)
-5. [Face Detection and Recognition](#face-detection-and-recognition)
-6. [Contribution](#contribution)
-7. [License](#license)
 
 ---
 
@@ -73,54 +69,5 @@ An AI application that generates captions for images by combining computer visio
 1. Clone the repository.
 2. Prepare your dataset of images and captions.
 3. Run the script using Python.
-
----
-
-## 4. Recommendation System
-
-### Description
-A simple recommendation system that suggests items (like movies) to users based on their preferences using collaborative filtering techniques. This project demonstrates how to recommend items based on user ratings.
-
-### Technologies Used
-- Python
-- Pandas
-- Surprise
-
-### Features
-- Collaborative filtering-based recommendations
-- Easy to extend with more data
-
-### How to Run
-1. Clone the repository.
-2. Run the script using Python to see recommendations.
-
----
-
-## 5. Face Detection and Recognition
-
-### Description
-An AI application that detects and recognizes faces in images or videos. This project employs Haar cascades for face detection and the `face_recognition` library for recognition capabilities.
-
-### Technologies Used
-- Python
-- OpenCV
-- face_recognition
-
-### Features
-- Real-time face detection and recognition
-- Simple interface using webcam or video files
-
-### How to Run
-1. Clone the repository.
-2. Prepare a directory named `known_faces` with images of known individuals.
-3. Run the script using Python to start the application.
-
----
-
-## Contribution
-Feel free to contribute to any of these projects. Pull requests are welcome!
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
