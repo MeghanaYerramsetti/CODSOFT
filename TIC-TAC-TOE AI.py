@@ -1,6 +1,5 @@
 import numpy as np
 
-# Constants for players
 PLAYER_X = "X"
 PLAYER_O = "O"
 
@@ -14,7 +13,6 @@ class TicTacToe:
         print()
 
     def check_winner(self):
-        # Check rows, columns, and diagonals for a winner
         for i in range(3):
             if self.board[i, :].tolist().count(PLAYER_X) == 3 or self.board[:, i].tolist().count(PLAYER_X) == 3:
                 return PLAYER_X
@@ -95,7 +93,6 @@ class TicTacToe:
                 print("It's a draw!")
                 break
 
-            # Switch players
             self.current_player = PLAYER_O if self.current_player == PLAYER_X else PLAYER_X
 
 if __name__ == "__main__":
